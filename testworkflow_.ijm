@@ -9,4 +9,5 @@ run("Auto Threshold", "method=MaxEntropy white");
 run("Set Measurements...", "area mean standard min centroid center shape integrated redirect=None decimal=3");
 run("Analyze Particles...", "display exclude clear include");
 saveAs("Results", "/Users/bleubleujam/Desktop/Results.csv");
+run("Analyze Particles...", "size=10-Infinity display exclude clear include");
 
